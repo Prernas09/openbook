@@ -1,0 +1,24 @@
+openbook-hub/
+├── public/
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── BookCard.tsx
+│   │   └── Header.tsx
+│   ├── lib/
+│   │   └── openLibrary.ts
+│   ├── hooks/
+│   │   └── useLocalStorage.ts
+│   ├── pages/
+│   │   ├── api/
+│   │   │   └── books.ts      # API proxy route
+│   │   ├── index.tsx
+│   │   └── shelf.tsx
+│   ├── styles/
+│   │   └── globals.css
+├── .env.local               # (Optional) for API keys
+├── tailwind.config.js
+├── next.config.js
+├── package.json
+├── tsconfig.json
+└── README.md

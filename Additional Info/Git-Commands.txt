@@ -1,0 +1,28 @@
+git init
+
+Great! To push your current changes to a remote Git repository, follow these steps:
+
+### 1. Add all files to staging
+```bash
+git add .
+```
+
+### 2. Commit your changes with a message
+```bash
+git commit -m "Initial commit"
+```
+
+### 3. Add your remote repository  
+(Replace the URL with your actual repository URL, e.g., on GitHub)
+```bash
+git remote add origin https://github.com/your-username/openbook-hub.git
+```
+
+### 4. Push your changes to the main branch
+```bash
+git push -u origin main
+```
+
+PS C:\Users\PRERNA\MyProjects\openbook> git checkout -b first-batch
+Switched to a new branch 'first-batch'
+
